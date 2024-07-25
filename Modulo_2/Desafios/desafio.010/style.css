@@ -6,15 +6,23 @@
 }
 
 body {
-    background-color: #3DB85E;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-header#cabecalho {
+header {
+    background-image: linear-gradient(to top, #0B642D, #1BF56F 90%);
     color: white;
+}
+
+.cabecalho {
     text-align: center;
 }
 
-.menu {
+nav {
+
+}
+
+nav > span {
     text-align: left;
+    margin-right: 20px;
 }
