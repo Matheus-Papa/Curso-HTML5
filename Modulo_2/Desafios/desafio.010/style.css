@@ -10,7 +10,7 @@ body {
 }
 
 header {
-    background-image: linear-gradient(to top, #0B642D, #1BF56F 90%);
+    background-image: linear-gradient(to top, #01693C, #02F18A 90%);
     color: white;
 }
 
@@ -19,10 +19,32 @@ header {
 }
 
 nav {
-
+    padding-bottom: 10px;
 }
 
 nav > span {
     text-align: left;
-    margin-right: 20px;
+    margin-left: 20px;
+    padding: 5px;
+}
+
+nav > span:hover {
+    background-color: rgba(255, 255, 255, 0.261);
+    border-radius: 10px;
+}
+
+main > h1 {
+    font-family: 'android';
+    color: #02AD63;
+}
+
+main > h2 {
+    font-family: 'android';
+    background-color: #02f1893d;
+    color: #02AD63;
+}
+
+.destaque {
+    color: #02f189;
+    text-decoration: none;
 }
